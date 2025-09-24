@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive JavaScript Project</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <h1>🎮 JavaScript Interactive Project</h1>
+
+  <!-- Part 1: Basic Events -->
+  <h2>Part 1: Event Handling</h2>
+  <button id="myButton">Click Me (onclick)</button>
+  <button id="thirdButton">Click Me (addEventListener)</button>
+  <p id="output"></p>
+
+  <input type="text" id="inputBox" placeholder="Type something here...">
+
+  <!-- Part 2: Interactive Features -->
+  <h2>Part 2: Interactive Elements</h2>
+  <button onclick="toggleTheme()">Toggle Dark Mode 🌙</button>
+
+  <button id="counterBtn">Increase Counter</button>
+  <p id="counterDisplay">Count: 0</p>
+
+  <div id="dropzone">
+    <div id="dragItem" draggable="true">Drag Me</div>
+  </div>
+
+  <!-- Part 3: Form Validation -->
+  <h2>Part 3: Form Validation</h2>
+  <form onsubmit="return validateSignUp()">
+    <input type="text" id="username" placeholder="Username">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+  
